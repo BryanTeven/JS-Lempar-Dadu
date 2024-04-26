@@ -9,7 +9,7 @@ function lempardadu() {
     for (let i = 0; i < jumlahdadu; i++) {
         const value = Math.floor(Math.random() * 6) + 1;
         values.push(value);
-        gambar.push(`<img src="./img/${value}.JPG" alt=" Dadu ${value}">`);
+        gambar.push(`<img src="./img/${value}.jpg" alt="Dadu ${value}">`);
 
     }
 
